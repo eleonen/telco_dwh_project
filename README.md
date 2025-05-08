@@ -8,30 +8,30 @@ This project was completed as a homework task for a Junior Big Data Engineer pos
 
 ```text
 telco_dwh_project/
-├── .env.example         <-- Example environment variables needed
+├── .env.example         
 ├── .gitignore
-├── .dockerignore        <-- Specifies files to ignore for Docker build
-├── Dockerfile           <-- Recipe for building the Docker image
-├── pyproject.toml       <-- Python dependencies (Poetry)
+├── .dockerignore        
+├── Dockerfile           
+├── pyproject.toml       
 ├── poetry.lock
-├── README.md            <-- This file
-├── src/                 <-- Source code root
-│   └── exacaster_task/  <-- Main Python package
+├── README.md            
+├── src/                 
+│   └── exacaster_task/  
 │       ├── __init__.py
 │       ├── config_settings.py
 │       ├── main.py
-│       ├── core/          <-- Core components (DB, Logger)
+│       ├── core/         
 │       │   ├── __init__.py
 │       │   ├── database.py
 │       │   └── logger.py
-│       ├── common/        <-- Common utilities (SQL Queries, Alerts)
+│       ├── common/       
 │       │   ├── __init__.py
 │       │   ├── sql_queries.py
 │       │   └── utils.py
-│       └── pipelines/     <-- ETL pipeline logic
+│       └── pipelines/    
 │           ├── __init__.py
 │           └── telco_billings_pipeline.py
-└── (usage.csv)   <-- Needs to be placed here manually (Not in Git)
+└── (usage.csv)  
 ```
 
 ## Prerequisites
