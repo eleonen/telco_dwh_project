@@ -1,0 +1,4 @@
+__pycache__/
+.env
+usage.csv
+usage_sample.csv
